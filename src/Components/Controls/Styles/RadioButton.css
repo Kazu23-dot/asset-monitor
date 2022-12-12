@@ -1,0 +1,13 @@
+.RadioButton .MuiFormControl-root .MuiFormLabel-root{
+ color:rgba(255,255,255,54) !important;
+ text-align:left;
+}
+
+.RadioButton{
+    position:relative;
+    left:6%;
+}
+
+.RadioButton .MuiFormControl-root .MuiFormGroup-root{
+    flex-direction:row !important;
+}

@@ -1,0 +1,29 @@
+
+.container{
+    background-color:blue;
+    border: solid 3px #D7EEFF;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    margin: 0;
+    color: white;
+}
+
+.button{
+    background-color: #005FFF;
+    color:#fff;
+    border: 3px solid #8EF1FF; /*ボタンの枠線をなくす場合[none]を設定*/
+    padding: 8px;
+    border-radius: 8px;
+    &:hover{ /*カーソルを合わ瀬田祭のボタンのスタイリングを設定*/
+        background-color: #aaa;
+        color: #fff;
+        cursor: pointer;
+    }
+}
