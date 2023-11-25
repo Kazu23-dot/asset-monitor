@@ -1,0 +1,59 @@
+.DashBoard {
+  top: 50px;
+  position: relative;
+  height: 100%;
+}
+
+.dashboard-header {
+  background-color: #262626;
+  border-top: 2px solid #666666;
+  display: flex;
+}
+
+.dashboard-header-title {
+  color: white;
+  margin-left: 55px;
+}
+
+.root-links {
+  margin: 0 0 0 auto;
+}
+
+.dashboard-header ul {
+  display: flex;
+}
+
+.dashboard-header li {
+  list-style: none; /*リスト要素の点を削除*/
+}
+
+.dashboard-header a {
+  text-decoration: none; /*リンクテキストのアンダーラインを削除*/
+  color: #66ffff;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.dashboard-header .RootItem1 {
+  font-weight: bold; /*文字を太文字に変更*/
+  font-size: 30px;
+  border: 2px solid #666666;
+}
+
+.dashboard-header .RootItem1 :hover {
+  background-color: #00ffff;
+  color: #fff;
+}
+
+.dashboard-header .RootItem2 {
+  font-weight: bold; /*文字を太文字に変更*/
+  font-size: 30px;
+  color: #666666;
+  border: 2px solid #666666;
+}
+
+.dashboard-header .RootItem2 :hover {
+  background-color: #00ffff;
+  color: #fff;
+}

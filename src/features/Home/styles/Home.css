@@ -1,0 +1,112 @@
+.HomeMenu {
+  top: 50px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/ /*縦方向で中央揃え*/
+  background-color: #666666;
+}
+
+.HomeMenu-Sub {
+  position: relative;
+  top: 30px;
+}
+
+.HomeMenu ul {
+  display: flex;
+}
+
+.HomeMenu li {
+  margin-left: 25px;
+  list-style: none; /*リスト要素の点を削除*/
+}
+
+.HomeMenu a {
+  text-decoration: none; /*リンクテキストのアンダーラインを削除*/
+}
+
+.HomeMenuItem1 {
+  background-color: #33ffff;
+  /*border-style: groove;*/ /* 枠線の種別を設定 */
+  border: 5px solid #666666;
+  border-radius: 5px;
+  border-width: 5px; /* 枠線の太さを設定 */
+  border-color: #999; /* 枠線の色設定 */
+}
+
+.HomeMenuItem1 :hover {
+  background-color: #555555;
+  color: #66ffff;
+}
+
+.HomeMenuIcon1 {
+  display: flex; /*横並びにスタイリング*/
+  flex-direction: column; /*横並びにしている要素を縦並びに変更するスタイリング*/
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold; /*文字を太文字に変更*/
+  color: #666666;
+}
+
+.HomeMenuItem2 {
+  background-color: #33ffff;
+  /*border-style: groove;*/ /* 枠線の種別を設定 */
+  border: 5px solid #666666;
+  border-radius: 5px;
+  border-width: 5px; /* 枠線の太さを設定 */
+  border-color: #999; /* 枠線の色設定 */
+}
+
+.HomeMenuItem2 :hover {
+  background-color: #555555;
+  color: #66ffff;
+}
+
+.HomeMenuIcon2 {
+  display: flex; /*横並びにスタイリング*/
+  flex-direction: column; /*横並びにしている要素を縦並びに変更するスタイリング*/
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold; /*文字を太文字に変更*/
+  color: #666666;
+}
+
+.HomeMenuItem3 {
+  background-color: #33ffff;
+  /*border-style: groove;*/ /* 枠線の種別を設定 */
+  border: 5px solid #666666;
+  border-radius: 5px;
+  border-width: 5px; /* 枠線の太さを設定 */
+  border-color: #999; /* 枠線の色設定 */
+}
+
+.HomeMenuItem3 :hover {
+  background-color: #555555;
+  color: #66ffff;
+}
+
+.HomeMenuIcon3 {
+  display: flex; /*横並びにスタイリング*/
+  flex-direction: column; /*横並びにしている要素を縦並びに変更するスタイリング*/
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold; /*文字を太文字に変更*/
+  color: #666666;
+}
+
+/*アイコンのスタイリングを強制的に書き換える*/
+.HomeMenuItem1 .MuiSvgIcon-root {
+  font-size: 250px !important;
+  color: #222222;
+}
+
+.HomeMenuItem2 .MuiSvgIcon-root {
+  font-size: 250px !important;
+  color: #222222;
+}
+
+.HomeMenuItem3 .MuiSvgIcon-root {
+  font-size: 250px !important;
+  color: #222222;
+}

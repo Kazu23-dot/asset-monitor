@@ -1,0 +1,44 @@
+/**検索パネル全体のスタイリング**/
+
+.SearchCondition-Panel {
+  top: 100px;
+  border: solid 3px #666666;
+  border-radius: 8px;
+  height: 100%;
+  width: 450px;
+  background-color: #000080;
+  color: white;
+}
+
+/**検索パネル全体のタイトル部分のスタイリング**/
+.SearchCondition-Panel .Panel-title {
+  text-align: center;
+}
+
+.SearchCondition-Panel .Condition-items {
+  display: block;
+  /* justify-content: center; */
+}
+
+.SearchCondition-Panel .Radio-Button-Group {
+  float: left;
+  padding-right: 5px;
+  padding-top: 8px;
+}
+
+.SearchCondition-Panel .Single_Select_Combo {
+  float: right;
+  padding-right: 10px;
+  padding-bottom: 12px;
+}
+
+.SearchCondition-Panel .Multi_Select_Combo {
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 12px;
+}
+
+.ButtonControl {
+  text-align: right;
+  padding-right: 5px;
+}

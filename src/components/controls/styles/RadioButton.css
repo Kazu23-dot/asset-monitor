@@ -1,0 +1,36 @@
+/**********************************/
+/* ラジオボタン(横用)のスタイリング */
+/**********************************/
+.Beside-RadioButton .MuiFormControl-root .MuiFormLabel-root {
+  color: rgba(255, 255, 255, 54) !important;
+  text-align: left;
+}
+
+.Beside-RadioButton {
+  position: relative;
+  left: 6%;
+}
+
+.Beside-RadioButton .MuiFormControl-root .MuiFormGroup-root {
+  flex-direction: row !important;
+}
+
+/**********************************/
+/* ラジオボタン(縦用)のスタイリング */
+/**********************************/
+.Vertical-RadioButton .MuiFormControl-root .MuiFormLabel-root {
+  color: rgba(255, 255, 255, 54) !important;
+  text-align: left;
+}
+
+.Vertical-RadioButton {
+  position: relative;
+  left: 20px;
+}
+
+.Vertical-RadioButton .MuiFormControl-root .MuiFormGroup-root {
+  flex-direction: column !important;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  margin-left: 5px;
+}

@@ -1,0 +1,50 @@
+/* 全体 */
+.Combobox {
+  margin: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.ComboGroup1 {
+  display: flex;
+}
+
+.ComboGroup1 .ComboGroupLabel1 {
+  margin-top: 8px;
+  margin-left: 30px;
+  color: #444444;
+  font-weight: bold;
+}
+
+.ComboGroup2 {
+  display: flex;
+}
+
+.ComboGroup2 .ComboGroupLabel2 {
+  margin-top: 8px;
+  margin-left: 46px;
+  color: #444444;
+  font-weight: bold;
+}
+
+/* プルダウン幅 */
+.ComboGroup1 .form-width {
+  width: 200px;
+  margin-left: 20px;
+}
+
+/* プルダウン幅 */
+.ComboGroup2 .form-width {
+  width: 200px;
+  margin-left: 20px;
+}
+
+/* プルダウン間隔 */
+.spacer {
+  margin-top: 15px;
+}
+
+.MuiFormControl-root {
+  display: flex;
+}

@@ -1,0 +1,68 @@
+@layer rdg.Root {
+  .r104f42s7-0-0-beta-19 {
+    /*強制上書き対象のみ設定*/
+    --rdg-header-background-color: #6666ff !important; /*header背景色を設定*/
+    --rdg-background-color: #eeffff !important; /*グリッドレコード部の背景色を設定*/
+    --rdg-row-hover-background-color: #ccffff !important; /*カーソル選択行の背景色を設定*/
+    --rdg-border-color: #bbbbbb !important;
+
+    /* 強制的に上書きしてグリッドのスタイリングを変更したいものを抜き出し上記のように!importantを付与して適用してください*/
+    /* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+    /* --rdg-color: #000;
+    --rdg-border-color: #ddd;
+    --rdg-summary-border-color: #aaa;
+    --rdg-background-color: hsl(0deg 0% 100%);
+    --rdg-header-background-color: hsl(0deg 0% 97.5%);
+    --rdg-row-hover-background-color: hsl(0deg 0% 96%);
+    --rdg-row-selected-background-color: hsl(207deg 76% 92%);
+    --rdg-row-selected-hover-background-color: hsl(207deg 76% 88%);
+    --rdg-checkbox-color: hsl(207deg 100% 29%);
+    --rdg-checkbox-focus-color: hsl(207deg 100% 69%);
+    --rdg-checkbox-disabled-border-color: #ccc;
+    --rdg-checkbox-disabled-background-color: #ddd;
+    --rdg-selection-color: #66afe9;
+    --rdg-font-size: 14px;
+    display: grid;
+    color-scheme: var(--rdg-color-scheme, light dark);
+    contain: strict;
+    content-visibility: auto;
+    block-size: 350px;
+    border: 1px solid var(--rdg-border-color); DataGridの外枠のスタイリング
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: var(--rdg-background-color);
+    color: var(--rdg-color);
+    font-size: var(--rdg-font-size);*/ /* needed on Firefox */
+  }
+}
+
+/*
+@layer rdg.HeaderRow {.r104f42s7-0-0-beta-19 {
+    display: contents;
+    line-height: var(--rdg-header-row-height);
+    background-color: var(--rdg-header-background-color);
+    font-weight: bold;
+}
+}
+
+@layer rdg.Cell {.r104f42s7-0-0-beta-19 {
+    contain: style;
+    position: relative;
+    padding-block: 0;
+    padding-inline: 8px;
+    border-inline-end: 1px solid var(--rdg-border-color);
+    border-block-end: 1px solid var(--rdg-border-color);
+    grid-row-start: var(--rdg-grid-row-start);
+    background-color: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow: clip;
+    text-overflow: ellipsis;
+    outline: none;
+}
+}
+
+@layer rdg.Cell {.r104f42s7-0-0-beta-19 *, .r104f42s7-0-0-beta-19 *::before, .r104f42s7-0-0-beta-19 *::after {
+    box-sizing: inherit;
+}}
+*/

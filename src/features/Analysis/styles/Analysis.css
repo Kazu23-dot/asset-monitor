@@ -1,0 +1,79 @@
+.Analysis {
+  top: 50px;
+  position: relative;
+  height: 100%;
+}
+
+.analysis-header {
+  background-color: #262626;
+  border-top: 2px solid #666666;
+  display: flex;
+}
+
+.header-title {
+  color: white;
+  margin-left: 55px;
+}
+
+.root-links {
+  margin: 0 0 0 auto;
+}
+
+.analysis-header ul {
+  display: flex;
+}
+
+.analysis-header li {
+  list-style: none; /*リスト要素の点を削除*/
+}
+
+.analysis-header a {
+  text-decoration: none; /*リンクテキストのアンダーラインを削除*/
+  color: #66ffff;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.analysis-header .RootItem1 {
+  font-weight: bold; /*文字を太文字に変更*/
+  font-size: 30px;
+  border: 2px solid #666666;
+}
+
+.analysis-header .RootItem1 :hover {
+  background-color: #00ffff;
+  color: #fff;
+}
+
+.analysis-header .RootItem2 {
+  font-weight: bold; /*文字を太文字に変更*/
+  font-size: 30px;
+  color: #666666;
+  border: 2px solid #666666;
+}
+
+.analysis-header .RootItem2 :hover {
+  background-color: #00ffff;
+  color: #fff;
+}
+
+.Analysis .Main-Contents {
+  display: flex;
+  height: 100%;
+}
+
+.Analysis .DataMonitorPanel {
+  margin-left: 5px;
+  width: 90%;
+}
+
+.Analysis .DataMonitorPanel .ChartPanel {
+  background-color: aquamarine;
+  width: 100%;
+}
+
+.Analysis .DataMonitorPanel .GridDataPanel {
+  margin-top: 10px;
+  background-color: blue;
+}
