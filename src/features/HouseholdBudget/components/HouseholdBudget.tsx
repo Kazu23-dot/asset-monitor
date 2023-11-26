@@ -862,12 +862,12 @@ export const HouseholdBudget = () => {
             <ul>
               <li>
                 <div className="RootItem1">
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/AssetMonitor/">Home</NavLink>
                 </div>
               </li>
               <li>
                 <div className="RootItem2">
-                  <NavLink to="/DashBoard">DashBoard</NavLink>
+                  <NavLink to="/AssetMonitor/DashBoard">DashBoard</NavLink>
                 </div>
               </li>
             </ul>

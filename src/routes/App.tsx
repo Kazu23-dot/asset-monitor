@@ -34,11 +34,19 @@ const App: FC = () => {
       {/***************************/}
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/AssetMonitor/" element={<Home />} />
+          <Route path="/AssetMonitor/DashBoard" element={<DashBoard />} />
+          <Route path="/AssetMonitor/Analysis" element={<Anaysis />} />
+          <Route
+            path="/AssetMonitor/HouseholdBudget"
+            element={<HouseholdBudget />}
+          />
+          <Route path="/AssetMonitor/*" element={<NoPage />} />
+          {/* <Route path="/" element={<Home />} />
           <Route path="/DashBoard" element={<DashBoard />} />
           <Route path="/Analysis" element={<Anaysis />} />
           <Route path="/HouseholdBudget" element={<HouseholdBudget />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="*" element={<NoPage />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

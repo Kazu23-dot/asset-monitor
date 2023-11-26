@@ -9,26 +9,26 @@ export const SidebarData = [
   {
     title: "ホーム",
     icon: <HomeIcon />,
-    link: "/",
+    link: "/AssetMonitor/",
   },
   {
     title: "アナリティクス",
     icon: <AssessmentIcon />,
-    link: "/analitics",
+    link: "/AssetMonitor/analitics",
   },
   {
     title: "家計簿",
     icon: <PaidIcon />,
-    link: "/household-budget",
+    link: "/AssetMonitor/household-budget",
   },
   {
     title: "アップロード",
     icon: <BackupIcon />,
-    link: "/upload",
+    link: "/AssetMonitor/upload",
   },
   {
     title: "設定",
     icon: <SettingsIcon />,
-    link: "/rocket",
+    link: "/AssetMonitor/rocket",
   },
 ];

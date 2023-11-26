@@ -14,12 +14,12 @@ class DashBoard extends React.Component {
             <ul>
               <li>
                 <div className="RootItem1">
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/AssetMonitor/">Home</NavLink>
                 </div>
               </li>
               <li>
                 <div className="RootItem2">
-                  <NavLink to="/Analysis">Analysis</NavLink>
+                  <NavLink to="/AssetMonitor/Analysis">Analysis</NavLink>
                 </div>
               </li>
             </ul>
