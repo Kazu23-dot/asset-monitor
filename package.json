@@ -32,13 +32,18 @@
     "react-scripts": "5.0.1",
     "recharts": "^2.8.0",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://Kazu23-dot.github.io/asset-monitor/"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "del": "del -rf docs",
+    "move": "move build docs",
+    "git": "git add . && git commit && git push origin master",
+    "deploy": "npm run del && npm run build && npm run move && npm run git"
   },
   "eslintConfig": {
     "extends": [
