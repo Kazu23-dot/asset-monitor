@@ -43,7 +43,8 @@
     "del": "del -rf docs",
     "move": "move build docs",
     "git": "git add . && git commit && git push origin master",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "postbuild": "cp build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": [
@@ -62,5 +63,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }

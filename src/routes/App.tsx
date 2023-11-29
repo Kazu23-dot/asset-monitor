@@ -12,6 +12,8 @@ import { HouseholdBudget } from "../features/HouseholdBudget/components/Househol
 import NoPage from "../components/views/NoPage";
 import SidebarMenu from "../components/SidebarMenu";
 
+const homeUrl = process.env.PUBLIC_URL;
+
 const App: FC = () => {
   return (
     <div className="App">
@@ -32,16 +34,23 @@ const App: FC = () => {
       {/***************************/}
       {/*****ページ遷移先の定義*****/}
       {/***************************/}
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/AssetMonitor/" element={<Home />} />
-          <Route path="/AssetMonitor/DashBoard" element={<DashBoard />} />
-          <Route path="/AssetMonitor/Analysis" element={<Anaysis />} />
+          <Route path={homeUrl + "/AssetMonitor/"} element={<Home />} />
           <Route
-            path="/AssetMonitor/HouseholdBudget"
+            path={homeUrl + "/AssetMonitor/DashBoard"}
+            element={<DashBoard />}
+          />
+          <Route
+            path={homeUrl + "/AssetMonitor/Analysis"}
+            element={<Anaysis />}
+          />
+          <Route
+            path={homeUrl + "/AssetMonitor/HouseholdBudget"}
             element={<HouseholdBudget />}
           />
-          <Route path="/AssetMonitor/*" element={<NoPage />} />
+          <Route path="*" element={<NoPage />} />
+
           {/* <Route path="/" element={<Home />} />
           <Route path="/DashBoard" element={<DashBoard />} />
           <Route path="/Analysis" element={<Anaysis />} />
