@@ -34,22 +34,16 @@ const App: FC = () => {
       {/***************************/}
       {/*****ページ遷移先の定義*****/}
       {/***************************/}
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={homeUrl + "/"}>
         <Routes>
-          <Route path={homeUrl + "/AssetMonitor/"} element={<Home />} />
+          <Route path={homeUrl + "/"} element={<Home />} />
+          <Route path={homeUrl + "/DashBoard"} element={<DashBoard />} />
+          <Route path={homeUrl + "/Analysis"} element={<Anaysis />} />
           <Route
-            path={homeUrl + "/AssetMonitor/DashBoard"}
-            element={<DashBoard />}
-          />
-          <Route
-            path={homeUrl + "/AssetMonitor/Analysis"}
-            element={<Anaysis />}
-          />
-          <Route
-            path={homeUrl + "/AssetMonitor/HouseholdBudget"}
+            path={homeUrl + "/HouseholdBudget"}
             element={<HouseholdBudget />}
           />
-          <Route path="*" element={<NoPage />} />
+          <Route path={homeUrl + "/AssetMonitor/*"} element={<NoPage />} />
 
           {/* <Route path="/" element={<Home />} />
           <Route path="/DashBoard" element={<DashBoard />} />

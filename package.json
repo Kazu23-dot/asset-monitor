@@ -43,8 +43,7 @@
     "del": "del -rf docs",
     "move": "move build docs",
     "git": "git add . && git commit && git push origin master",
-    "deploy": "gh-pages -d build",
-    "postbuild": "cp build/index.html build/404.html"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
