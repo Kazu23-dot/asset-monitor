@@ -63,17 +63,36 @@
   height: 100%;
 }
 
+.Analysis .SideSelectItemCond {
+  width: 12%;
+  /*background-color: #666666;*/
+}
+
 .Analysis .DataMonitorPanel {
-  margin-left: 5px;
+  margin-left: 1px;
   width: 90%;
 }
 
-.Analysis .DataMonitorPanel .ChartPanel {
-  background-color: aquamarine;
-  width: 100%;
+.Analysis .Main-Contents .DataMonitorPanel .UpperMonitorPanel {
+  display: flex;
+  height: 60%;
 }
 
-.Analysis .DataMonitorPanel .GridDataPanel {
+.Analysis
+  .Main-Contents
+  .DataMonitorPanel
+  .UpperMonitorPanel
+  .DonutsChartPanel {
+  /*background-color: aquamarine;*/
+  width: 100%;
+  height: 90%;
+}
+
+.Analysis
+  .Main-Contents
+  .DataMonitorPanel
+  .UpperMonitorPanel
+  .SectorGridDataPanel {
   margin-top: 10px;
-  background-color: blue;
+  width: 100%;
 }

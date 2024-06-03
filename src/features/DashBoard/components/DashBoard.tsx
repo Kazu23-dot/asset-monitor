@@ -2,8 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/DashBoard.css";
 
-const homeUrl = process.env.PUBLIC_URL;
-
 class DashBoard extends React.Component {
   render() {
     return (
@@ -16,12 +14,12 @@ class DashBoard extends React.Component {
             <ul>
               <li>
                 <div className="RootItem1">
-                  <NavLink to={homeUrl + "/"}>Home</NavLink>
+                  <NavLink to={"/AssetMonitor/"}>Home</NavLink>
                 </div>
               </li>
               <li>
                 <div className="RootItem2">
-                  <NavLink to={homeUrl + "/Analysis"}>Analysis</NavLink>
+                  <NavLink to={"/AssetMonitor/Analysis"}>Analysis</NavLink>
                 </div>
               </li>
             </ul>

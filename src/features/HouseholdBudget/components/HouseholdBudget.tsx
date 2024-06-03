@@ -7,8 +7,6 @@ import { ComposedResponsiveContainer } from "../../../components/controls/ReChar
 import axios from "axios";
 import "../styles/HouseholdBudget.css";
 
-const homeUrl = process.env.PUBLIC_URL;
-
 /*************************************/
 /** チャート用の引き渡しデータ用変数 **/
 /*************************************/
@@ -864,12 +862,12 @@ export const HouseholdBudget = () => {
             <ul>
               <li>
                 <div className="RootItem1">
-                  <NavLink to={homeUrl + "/"}>Home</NavLink>
+                  <NavLink to={"/"}>Home</NavLink>
                 </div>
               </li>
               <li>
                 <div className="RootItem2">
-                  <NavLink to={homeUrl + "/DashBoard"}>DashBoard</NavLink>
+                  <NavLink to={"/DashBoard"}>DashBoard</NavLink>
                 </div>
               </li>
             </ul>

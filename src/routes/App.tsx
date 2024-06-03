@@ -7,12 +7,12 @@ import logo from "./images/logo.svg";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "../features/Home/components/Home";
 import DashBoard from "../features/DashBoard/components/DashBoard";
-import Anaysis from "../features/Analysis/components/Analysis";
+import { Analysis } from "../features/Analysis/components/Analysis";
 import { HouseholdBudget } from "../features/HouseholdBudget/components/HouseholdBudget";
 import NoPage from "../components/views/NoPage";
 import SidebarMenu from "../components/SidebarMenu";
 
-const homeUrl = process.env.PUBLIC_URL;
+// const homeUrl = process.env.PUBLIC_URL;
 
 const App: FC = () => {
   return (
@@ -34,16 +34,16 @@ const App: FC = () => {
       {/***************************/}
       {/*****ページ遷移先の定義*****/}
       {/***************************/}
-      <BrowserRouter basename={homeUrl + "/"}>
+      <BrowserRouter basename="/">
         <Routes>
-          <Route path={homeUrl + "/"} element={<Home />} />
-          <Route path={homeUrl + "/DashBoard"} element={<DashBoard />} />
-          <Route path={homeUrl + "/Analysis"} element={<Anaysis />} />
+          <Route path={"/AssetMonitor/"} element={<Home />} />
+          <Route path={"/AssetMonitor/DashBoard"} element={<DashBoard />} />
+          <Route path={"/AssetMonitor/Analysis"} element={<Analysis />} />
           <Route
-            path={homeUrl + "/HouseholdBudget"}
+            path={"/AssetMonitor/HouseholdBudget"}
             element={<HouseholdBudget />}
           />
-          <Route path={homeUrl + "/AssetMonitor/*"} element={<NoPage />} />
+          <Route path={"/AssetMonitor/*"} element={<NoPage />} />
 
           {/* <Route path="/" element={<Home />} />
           <Route path="/DashBoard" element={<DashBoard />} />

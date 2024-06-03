@@ -5,32 +5,30 @@ import PaidIcon from "@mui/icons-material/Paid";
 import BackupIcon from "@material-ui/icons/Backup";
 import SettingsIcon from "@material-ui/icons/Settings";
 
-const homeUrl = process.env.PUBLIC_URL;
-
 export const SidebarData = [
   {
     title: "ホーム",
     icon: <HomeIcon />,
-    link: homeUrl + "/",
+    link: "/AssetMonitor/",
   },
   {
     title: "アナリティクス",
     icon: <AssessmentIcon />,
-    link: homeUrl + "/Analysis",
+    link: "/AssetMonitor/Analysis",
   },
   {
     title: "家計簿",
     icon: <PaidIcon />,
-    link: homeUrl + "/HouseholdBudget",
+    link: "/AssetMonitor/HouseholdBudget",
   },
   {
     title: "アップロード",
     icon: <BackupIcon />,
-    link: homeUrl + "/Upload",
+    link: "/AssetMonitor/Upload",
   },
   {
     title: "設定",
     icon: <SettingsIcon />,
-    link: homeUrl + "/Setting",
+    link: "/AssetMonitor/Setting",
   },
 ];
