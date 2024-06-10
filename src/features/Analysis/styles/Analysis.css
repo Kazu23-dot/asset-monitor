@@ -96,3 +96,13 @@
   margin-top: 10px;
   width: 100%;
 }
+
+.Analysis .Main-Contents .DataMonitorPanel .SearchCondPanel {
+  height: 5%;
+}
+
+.Analysis .Main-Contents .DataMonitorPanel .SearchCondPanel .SliderThreshold {
+  width: 50%;
+  height: 100px;
+  float: right;
+}

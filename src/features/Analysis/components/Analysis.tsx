@@ -215,10 +215,13 @@ export const Analysis = () => {
             <VerticalTabs />
           </div>
           <div className="DataMonitorPanel">
+            <div className="SearchCondPanel"></div>
             <div className="UpperMonitorPanel">
               <div className="DonutsChartPanel">
                 <Example />
-                <DiscreteSliderLabel />
+                <div className="SliderThreshold">
+                  <DiscreteSliderLabel />
+                </div>
               </div>
               <div className="SectorGridDataPanel">
                 <DataGridList
