@@ -76,6 +76,8 @@
 .Analysis .Main-Contents .DataMonitorPanel .UpperMonitorPanel {
   display: flex;
   height: 60%;
+  border: 1px solid #000;
+  margin-bottom: 7px;
 }
 
 .Analysis
@@ -99,6 +101,8 @@
 
 .Analysis .Main-Contents .DataMonitorPanel .SearchCondPanel {
   height: 5%;
+  display: flex;
+  flex-flow: column;
 }
 
 .Analysis .Main-Contents .DataMonitorPanel .SearchCondPanel .SliderThreshold {

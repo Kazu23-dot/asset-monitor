@@ -8,6 +8,7 @@ import Example from "../../../components/controls/ReactMuiXDataGrid";
 import { GridColDef } from "@mui/x-data-grid";
 import VerticalTabs from "../../../components/controls/VerticalTabs";
 import DiscreteSliderLabel from "../../../components/controls/Slider";
+import ColorToggleButton from "../../../components/controls/ToggleButtons";
 import "../styles/Analysis.css";
 
 import "../types/Anaysis.d.ts";
@@ -215,7 +216,10 @@ export const Analysis = () => {
             <VerticalTabs />
           </div>
           <div className="DataMonitorPanel">
-            <div className="SearchCondPanel"></div>
+            <div className="SearchCondPanel">
+              <ColorToggleButton />
+              <ColorToggleButton />
+            </div>
             <div className="UpperMonitorPanel">
               <div className="DonutsChartPanel">
                 <Example />
