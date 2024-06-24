@@ -9,6 +9,7 @@ import { GridColDef } from "@mui/x-data-grid";
 import VerticalTabs from "../../../components/controls/VerticalTabs";
 import DiscreteSliderLabel from "../../../components/controls/Slider";
 import ColorToggleButton from "../../../components/controls/ToggleButtons";
+import { IconLabelButtons } from "../../../components/controls/ButtonControls";
 import "../styles/Analysis.css";
 
 import "../types/Anaysis.d.ts";
@@ -219,6 +220,7 @@ export const Analysis = () => {
             <div className="SearchCondPanel">
               <ColorToggleButton />
               <ColorToggleButton />
+              <IconLabelButtons btnNm01={"更新"} color="red" />
             </div>
             <div className="UpperMonitorPanel">
               <div className="DonutsChartPanel">
