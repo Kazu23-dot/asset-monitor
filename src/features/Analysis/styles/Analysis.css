@@ -102,7 +102,26 @@
 .Analysis .Main-Contents .DataMonitorPanel .SearchCondPanel {
   height: 5%;
   display: flex;
-  flex-flow: column;
+}
+
+.Analysis
+  .Main-Contents
+  .DataMonitorPanel
+  .SearchCondPanel
+  .SearchCond_LeftPanel {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: bottom;
+}
+
+.Analysis
+  .Main-Contents
+  .DataMonitorPanel
+  .SearchCondPanel
+  .SearchCond_RightPanel {
+  height: 100%;
+  width: 100%;
 }
 
 .Analysis .Main-Contents .DataMonitorPanel .SearchCondPanel .SliderThreshold {

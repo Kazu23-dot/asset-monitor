@@ -14,7 +14,14 @@ export default function ColorToggleButton() {
 
   return (
     <ToggleButtonGroup
-      color="primary"
+      style={{
+        color: "#808080",
+        backgroundColor: "#EAD9FF",
+        height: 35,
+        position: "relative",
+        bottom: -21,
+      }}
+      size="large"
       value={alignment}
       exclusive
       onChange={handleChange}

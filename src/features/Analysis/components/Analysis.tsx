@@ -218,9 +218,12 @@ export const Analysis = () => {
           </div>
           <div className="DataMonitorPanel">
             <div className="SearchCondPanel">
-              <ColorToggleButton />
-              <ColorToggleButton />
-              <IconLabelButtons btnNm01={"更新"} color="red" />
+              <div className="SearchCond_LeftPanel">
+                <ColorToggleButton />
+              </div>
+              <div className="SearchCond_RightPanel">
+                <IconLabelButtons btnNm01={"更新"} />
+              </div>
             </div>
             <div className="UpperMonitorPanel">
               <div className="DonutsChartPanel">

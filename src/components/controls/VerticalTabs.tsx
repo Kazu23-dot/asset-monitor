@@ -67,8 +67,8 @@ export default function VerticalTabs() {
           backgroundColor: "aliceblue",
         }}
       >
-        <Tab label="日本高配当_銘柄別-分析" {...a11yProps(0)} />
-        <Tab label="日本高配当_セクター別-分析" {...a11yProps(1)} />
+        <Tab label="日本高配当_銘柄別" {...a11yProps(0)} />
+        <Tab label="日本高配当_セクター別" {...a11yProps(1)} />
         <Tab label="Item3" {...a11yProps(2)} />
         <Tab label="Item4" {...a11yProps(3)} />
         <Tab label="Item5" {...a11yProps(4)} />
